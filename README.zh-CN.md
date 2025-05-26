@@ -272,6 +272,12 @@ class TestDoc
 
     [FtNumericField("views")]
     public int Views { get; set; }
+
+    [FtGeoField("location")]
+    public string Location { get; set; }
+
+    [FtGeoShapeField("shape")]
+    public string Shape { get; set; }
 }
 
 var repo = cli.FtDocumentRepository<TestDoc>();
@@ -285,9 +291,9 @@ repo.Delete(1, 2, 3);
 
 repo.Save(new[]
 {
-    new TestDoc { Id = 1, Title = "test title1 word", Category = "class 1", Content = "test content 1 suffix", Tags = "user1,user2", Views = 101 },
-    new TestDoc { Id = 2, Title = "prefix test title2", Category = "class 2", Content = "test infix content 2", Tags = "user2,user3", Views = 201 },
-    new TestDoc { Id = 3, Title = "test title3 word", Category = "class 1", Content = "test word content 3", Tags = "user2,user5", Views = 301 }
+    new TestDoc { Id = 1, Title = "test title1 word", Category = "class 1", Content = "test content 1 suffix", Tags = "user1,user2", Views = 101, Location = "104.800644 38.846127", Shape = "POLYGON ((1 1, 1 3, 3 3, 3 1, 1 1))" },
+    new TestDoc { Id = 2, Title = "prefix test title2", Category = "class 2", Content = "test infix content 2", Tags = "user2,user3", Views = 201, Location = "-104.991531, 39.742043", Shape = "POLYGON ((2 2.5, 2 3.5, 3.5 3.5, 3.5 2.5, 2 2.5))" },
+    new TestDoc { Id = 3, Title = "test title3 word", Category = "class 1", Content = "test word content 3", Tags = "user2,user5", Views = 301, Location = "-105.0618814,40.5150098", Shape = "POLYGON ((3.5 1, 3.75 2, 4 1, 3.5 1))" }
 });
 
 var list = repo.Search("*").InFields(a => new { a.Title }).ToList();
@@ -297,6 +303,12 @@ list = repo.Search("*").Return(a => new { tit1 = a.Title, tgs1 = a.Tags, a.Title
 list = repo.Search(a => a.Title == "word" && a.Tags.Contains("user1")).Filter(a => a.Views, 1, 1000).ToList();
 list = repo.Search("word").ToList();
 list = repo.Search("@title:word").ToList();
+
+// Geo field support
+list = repo.Search(a => a.Location.GeoRadius(-104.800644m, 38.846127m, 38.846127m, GeoUnit.mi)).ToList();
+
+// GeoShape field support
+list = repo.Search(a => a.Shape.ShapeWithin("qshape")).Params("qshape", "POLYGON ((1 1, 1 3, 3 3, 3 1, 1 1))").Dialect(3).ToList();
 ```
 
 ## 👯 Contributors (贡献者)
