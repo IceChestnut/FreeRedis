@@ -276,7 +276,7 @@ class TestDoc
     [FtGeoField("location")]
     public string Location { get; set; }
 
-    [FtGeoShapeField("shape")]
+    [FtGeoShapeField("shape", System = CoordinateSystem.FLAT)]
     public string Shape { get; set; }
 }
 
