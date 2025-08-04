@@ -73,7 +73,9 @@
   
   <h1 id="FreeRedis_RediSearch_FtTextFieldAttribute" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute" class="text-break">Class FtTextFieldAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>标记属性为文本字段，支持全文搜索、词干提取、语音匹配等高级文本搜索功能。
+适用于需要进行全文搜索的字符串属性，如标题、描述、内容等。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -249,7 +251,8 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute__ctor" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.#ctor">FtTextFieldAttribute()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>初始化 FtTextFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -259,7 +262,8 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute__ctor_System_String_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.#ctor(System.String)">FtTextFieldAttribute(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的字段名初始化 FtTextFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -278,7 +282,8 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>字段在 Redis 中的名称</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -288,7 +293,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_EmptyIndex_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.EmptyIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_EmptyIndex" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.EmptyIndex">EmptyIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否索引空值。如果设置为 true，字段值为空字符串的文档也会被索引。
+这允许搜索包含空字段的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -313,7 +320,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_MissingIndex_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.MissingIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_MissingIndex" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.MissingIndex">MissingIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否索引缺失值。如果设置为 true，没有该字段的文档也会被索引。
+这允许搜索不包含特定字段的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -338,7 +347,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_NoIndex_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.NoIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_NoIndex" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.NoIndex">NoIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否不创建搜索索引。如果设置为 true，字段数据会被存储但不能被搜索。
+适用于需要存储但不需要搜索的字段，可以节省索引空间和提高性能。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -363,7 +374,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_NoStem_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.NoStem*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_NoStem" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.NoStem">NoStem</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否禁用词干提取。如果设置为 true，将不会对该字段进行词干提取处理。
+词干提取可以匹配单词的不同形式（如 &quot;running&quot; 和 &quot;run&quot;）。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -388,7 +401,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_Phonetic_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Phonetic*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_Phonetic" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Phonetic">Phonetic</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置语音匹配算法。支持 &quot;dm:en&quot;（英语双重音标）和 &quot;dm:fr&quot;（法语双重音标）等。
+语音匹配可以找到发音相似的单词。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -413,7 +428,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_Sortable_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Sortable*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_Sortable" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Sortable">Sortable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置字段是否可排序。如果设置为 true，可以在搜索结果中按此字段排序。
+注意：可排序字段会占用额外的内存空间。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -438,7 +455,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_Unf_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Unf*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_Unf" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Unf">Unf</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否使用 UNF（Unicode Normalization Form）。
+如果设置为 true，将对 Unicode 文本进行标准化处理。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -463,7 +482,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_Weight_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Weight*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_Weight" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.Weight">Weight</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置字段在搜索中的权重。权重越高，匹配该字段的文档在搜索结果中的排名越靠前。
+默认值为 1.0，范围通常为 0.1 到 10.0。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -488,7 +509,9 @@ public class FtTextFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtTextFieldAttribute_WithSuffixTrie_" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.WithSuffixTrie*"></a>
   <h4 id="FreeRedis_RediSearch_FtTextFieldAttribute_WithSuffixTrie" data-uid="FreeRedis.RediSearch.FtTextFieldAttribute.WithSuffixTrie">WithSuffixTrie</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否创建后缀树索引。如果设置为 true，支持通配符搜索和前缀匹配。
+注意：后缀树会显著增加索引大小和内存使用。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

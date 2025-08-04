@@ -329,6 +329,97 @@
   </table>
   
   
+  <a id="FreeRedis_RediSearch_FtDocumentRepository_1_Get_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.Get*"></a>
+  <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_Get_System_Object_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object)">Get(Object)</h4>
+  <div class="markdown level1 summary"><p>获取文档的所有字段，包括没有标记 FtFieldAttribute 的字段。
+使用与 Search 方法相同的反序列化逻辑。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Get(object id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>文档ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>文档对象，如果不存在则返回 null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="FreeRedis_RediSearch_FtDocumentRepository_1_Get_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.Get*"></a>
+  <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_Get_System_Object___" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object[])">Get(Object[])</h4>
+  <div class="markdown level1 summary"><p>批量获取文档的所有字段，包括没有标记 FtFieldAttribute 的字段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T[] Get(params object[] ids)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">ids</span></td>
+        <td><p>文档ID数组</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>文档对象数组</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="FreeRedis_RediSearch_FtDocumentRepository_1_GetMapFieldType_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.GetMapFieldType*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_GetMapFieldType_PropertyInfo_FreeRedis_RediSearch_FtFieldAttribute_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.GetMapFieldType(PropertyInfo,FreeRedis.RediSearch.FtFieldAttribute)">GetMapFieldType(PropertyInfo, FtFieldAttribute)</h4>
   <div class="markdown level1 summary"></div>
@@ -593,6 +684,94 @@
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
         <td><span class="parametername">docs</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll*"></a>
+  <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll__0_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0)">SaveAll(T)</h4>
+  <div class="markdown level1 summary"><p>保存文档的所有字段，包括没有标记 FtFieldAttribute 的字段。
+没有 FtFieldAttribute 的字段将直接使用属性名称作为 Redis 字段名称。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveAll(T doc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">doc</span></td>
+        <td><p>要保存的文档</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll*"></a>
+  <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll__0___" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0[])">SaveAll(T[])</h4>
+  <div class="markdown level1 summary"><p>保存多个文档的所有字段，包括没有标记 FtFieldAttribute 的字段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveAll(T[] docs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">docs</span></td>
+        <td><p>要保存的文档数组</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll*"></a>
+  <h4 id="FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_System_Collections_Generic_IEnumerable__0__" data-uid="FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(System.Collections.Generic.IEnumerable{`0})">SaveAll(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>保存多个文档的所有字段，包括没有标记 FtFieldAttribute 的字段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveAll(IEnumerable&lt;T&gt; docs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">docs</span></td>
+        <td><p>要保存的文档集合</p>
+</td>
       </tr>
     </tbody>
   </table>

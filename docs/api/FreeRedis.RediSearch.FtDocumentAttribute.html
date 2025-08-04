@@ -73,7 +73,9 @@
   
   <h1 id="FreeRedis_RediSearch_FtDocumentAttribute" data-uid="FreeRedis.RediSearch.FtDocumentAttribute" class="text-break">Class FtDocumentAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>标记类为 RediSearch 文档类型，定义索引的基本配置信息。
+每个用于 FtDocumentRepository 的实体类都必须标记此特性。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -239,7 +241,8 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtDocumentAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentAttribute__ctor_System_String_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.#ctor(System.String)">FtDocumentAttribute(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的索引名称初始化 FtDocumentAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -258,7 +261,8 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>索引的名称</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -268,7 +272,10 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtDocumentAttribute_Filter_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Filter*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentAttribute_Filter" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Filter">Filter</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置文档过滤器表达式。只有满足此过滤条件的文档才会被包含在索引中。
+过滤器使用 RediSearch 查询语法，可以基于字段值进行过滤。
+例如：&quot;@status:active&amp;quot; 只索引状态为 active 的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -293,7 +300,10 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtDocumentAttribute_Language_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Language*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentAttribute_Language" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Language">Language</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置文档的默认语言。影响文本分析、词干提取和停用词处理。
+支持的语言包括：chinese、english、arabic、danish、dutch、finnish、french、german、hungarian、italian、norwegian、portuguese、romanian、russian、spanish、swedish、turkish。
+默认值为 &quot;chinese&quot;。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -318,7 +328,9 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtDocumentAttribute_Name_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Name*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentAttribute_Name" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置索引的名称。这是在 Redis 中创建的索引的唯一标识符。
+索引名称必须在 Redis 实例中唯一。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -343,7 +355,10 @@ public class FtDocumentAttribute : Attribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtDocumentAttribute_Prefix_" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Prefix*"></a>
   <h4 id="FreeRedis_RediSearch_FtDocumentAttribute_Prefix" data-uid="FreeRedis.RediSearch.FtDocumentAttribute.Prefix">Prefix</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置文档键的前缀。只有具有此前缀的 Redis 键才会被包含在索引中。
+例如，如果设置为 &quot;user:&quot;，则只有 &quot;user:123&quot;、&quot;user:456&quot; 等键会被索引。
+前缀有助于区分不同类型的文档和提高索引性能。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

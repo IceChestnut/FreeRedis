@@ -6922,6 +6922,362 @@ references:
   isSpec: "True"
   fullName: FreeRedis.IRedisClient.FlushDb
   nameWithType: IRedisClient.FlushDb
+- uid: FreeRedis.IRedisClient.Ft_List
+  name: Ft_List()
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_Ft_List
+  commentId: M:FreeRedis.IRedisClient.Ft_List
+  fullName: FreeRedis.IRedisClient.Ft_List()
+  nameWithType: IRedisClient.Ft_List()
+- uid: FreeRedis.IRedisClient.Ft_List*
+  name: Ft_List
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_Ft_List_
+  commentId: Overload:FreeRedis.IRedisClient.Ft_List
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.Ft_List
+  nameWithType: IRedisClient.Ft_List
+- uid: FreeRedis.IRedisClient.FtAggregate(System.String,System.String)
+  name: FtAggregate(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAggregate_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtAggregate(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtAggregate(System.String, System.String)
+  nameWithType: IRedisClient.FtAggregate(String, String)
+- uid: FreeRedis.IRedisClient.FtAggregate*
+  name: FtAggregate
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAggregate_
+  commentId: Overload:FreeRedis.IRedisClient.FtAggregate
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtAggregate
+  nameWithType: IRedisClient.FtAggregate
+- uid: FreeRedis.IRedisClient.FtAliasAdd(System.String,System.String)
+  name: FtAliasAdd(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasAdd_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtAliasAdd(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtAliasAdd(System.String, System.String)
+  nameWithType: IRedisClient.FtAliasAdd(String, String)
+- uid: FreeRedis.IRedisClient.FtAliasAdd*
+  name: FtAliasAdd
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasAdd_
+  commentId: Overload:FreeRedis.IRedisClient.FtAliasAdd
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtAliasAdd
+  nameWithType: IRedisClient.FtAliasAdd
+- uid: FreeRedis.IRedisClient.FtAliasDel(System.String)
+  name: FtAliasDel(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasDel_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtAliasDel(System.String)
+  fullName: FreeRedis.IRedisClient.FtAliasDel(System.String)
+  nameWithType: IRedisClient.FtAliasDel(String)
+- uid: FreeRedis.IRedisClient.FtAliasDel*
+  name: FtAliasDel
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasDel_
+  commentId: Overload:FreeRedis.IRedisClient.FtAliasDel
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtAliasDel
+  nameWithType: IRedisClient.FtAliasDel
+- uid: FreeRedis.IRedisClient.FtAliasUpdate(System.String,System.String)
+  name: FtAliasUpdate(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasUpdate_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtAliasUpdate(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtAliasUpdate(System.String, System.String)
+  nameWithType: IRedisClient.FtAliasUpdate(String, String)
+- uid: FreeRedis.IRedisClient.FtAliasUpdate*
+  name: FtAliasUpdate
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAliasUpdate_
+  commentId: Overload:FreeRedis.IRedisClient.FtAliasUpdate
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtAliasUpdate
+  nameWithType: IRedisClient.FtAliasUpdate
+- uid: FreeRedis.IRedisClient.FtAlter(System.String)
+  name: FtAlter(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAlter_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtAlter(System.String)
+  fullName: FreeRedis.IRedisClient.FtAlter(System.String)
+  nameWithType: IRedisClient.FtAlter(String)
+- uid: FreeRedis.IRedisClient.FtAlter*
+  name: FtAlter
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtAlter_
+  commentId: Overload:FreeRedis.IRedisClient.FtAlter
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtAlter
+  nameWithType: IRedisClient.FtAlter
+- uid: FreeRedis.IRedisClient.FtConfigGet(System.String,System.String)
+  name: FtConfigGet(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtConfigGet_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtConfigGet(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtConfigGet(System.String, System.String)
+  nameWithType: IRedisClient.FtConfigGet(String, String)
+- uid: FreeRedis.IRedisClient.FtConfigGet*
+  name: FtConfigGet
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtConfigGet_
+  commentId: Overload:FreeRedis.IRedisClient.FtConfigGet
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtConfigGet
+  nameWithType: IRedisClient.FtConfigGet
+- uid: FreeRedis.IRedisClient.FtConfigSet(System.String,System.String)
+  name: FtConfigSet(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtConfigSet_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtConfigSet(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtConfigSet(System.String, System.String)
+  nameWithType: IRedisClient.FtConfigSet(String, String)
+- uid: FreeRedis.IRedisClient.FtConfigSet*
+  name: FtConfigSet
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtConfigSet_
+  commentId: Overload:FreeRedis.IRedisClient.FtConfigSet
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtConfigSet
+  nameWithType: IRedisClient.FtConfigSet
+- uid: FreeRedis.IRedisClient.FtCreate(System.String)
+  name: FtCreate(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCreate_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtCreate(System.String)
+  fullName: FreeRedis.IRedisClient.FtCreate(System.String)
+  nameWithType: IRedisClient.FtCreate(String)
+- uid: FreeRedis.IRedisClient.FtCreate*
+  name: FtCreate
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCreate_
+  commentId: Overload:FreeRedis.IRedisClient.FtCreate
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtCreate
+  nameWithType: IRedisClient.FtCreate
+- uid: FreeRedis.IRedisClient.FtCursorDel(System.String,System.Int64)
+  name: FtCursorDel(String, Int64)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCursorDel_System_String_System_Int64_
+  commentId: M:FreeRedis.IRedisClient.FtCursorDel(System.String,System.Int64)
+  fullName: FreeRedis.IRedisClient.FtCursorDel(System.String, System.Int64)
+  nameWithType: IRedisClient.FtCursorDel(String, Int64)
+- uid: FreeRedis.IRedisClient.FtCursorDel*
+  name: FtCursorDel
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCursorDel_
+  commentId: Overload:FreeRedis.IRedisClient.FtCursorDel
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtCursorDel
+  nameWithType: IRedisClient.FtCursorDel
+- uid: FreeRedis.IRedisClient.FtCursorRead(System.String,System.Int64,System.Int32)
+  name: FtCursorRead(String, Int64, Int32)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCursorRead_System_String_System_Int64_System_Int32_
+  commentId: M:FreeRedis.IRedisClient.FtCursorRead(System.String,System.Int64,System.Int32)
+  fullName: FreeRedis.IRedisClient.FtCursorRead(System.String, System.Int64, System.Int32)
+  nameWithType: IRedisClient.FtCursorRead(String, Int64, Int32)
+- uid: FreeRedis.IRedisClient.FtCursorRead*
+  name: FtCursorRead
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtCursorRead_
+  commentId: Overload:FreeRedis.IRedisClient.FtCursorRead
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtCursorRead
+  nameWithType: IRedisClient.FtCursorRead
+- uid: FreeRedis.IRedisClient.FtDictAdd(System.String,System.String[])
+  name: FtDictAdd(String, String[])
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictAdd_System_String_System_String___
+  commentId: M:FreeRedis.IRedisClient.FtDictAdd(System.String,System.String[])
+  name.vb: FtDictAdd(String, String())
+  fullName: FreeRedis.IRedisClient.FtDictAdd(System.String, System.String[])
+  fullName.vb: FreeRedis.IRedisClient.FtDictAdd(System.String, System.String())
+  nameWithType: IRedisClient.FtDictAdd(String, String[])
+  nameWithType.vb: IRedisClient.FtDictAdd(String, String())
+- uid: FreeRedis.IRedisClient.FtDictAdd*
+  name: FtDictAdd
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictAdd_
+  commentId: Overload:FreeRedis.IRedisClient.FtDictAdd
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtDictAdd
+  nameWithType: IRedisClient.FtDictAdd
+- uid: FreeRedis.IRedisClient.FtDictDel(System.String,System.String[])
+  name: FtDictDel(String, String[])
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictDel_System_String_System_String___
+  commentId: M:FreeRedis.IRedisClient.FtDictDel(System.String,System.String[])
+  name.vb: FtDictDel(String, String())
+  fullName: FreeRedis.IRedisClient.FtDictDel(System.String, System.String[])
+  fullName.vb: FreeRedis.IRedisClient.FtDictDel(System.String, System.String())
+  nameWithType: IRedisClient.FtDictDel(String, String[])
+  nameWithType.vb: IRedisClient.FtDictDel(String, String())
+- uid: FreeRedis.IRedisClient.FtDictDel*
+  name: FtDictDel
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictDel_
+  commentId: Overload:FreeRedis.IRedisClient.FtDictDel
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtDictDel
+  nameWithType: IRedisClient.FtDictDel
+- uid: FreeRedis.IRedisClient.FtDictDump(System.String)
+  name: FtDictDump(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictDump_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtDictDump(System.String)
+  fullName: FreeRedis.IRedisClient.FtDictDump(System.String)
+  nameWithType: IRedisClient.FtDictDump(String)
+- uid: FreeRedis.IRedisClient.FtDictDump*
+  name: FtDictDump
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDictDump_
+  commentId: Overload:FreeRedis.IRedisClient.FtDictDump
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtDictDump
+  nameWithType: IRedisClient.FtDictDump
+- uid: FreeRedis.IRedisClient.FtDocumentRepository*
+  name: FtDocumentRepository
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDocumentRepository_
+  commentId: Overload:FreeRedis.IRedisClient.FtDocumentRepository
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtDocumentRepository
+  nameWithType: IRedisClient.FtDocumentRepository
+- uid: FreeRedis.IRedisClient.FtDocumentRepository``1
+  name: FtDocumentRepository<T>()
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDocumentRepository__1
+  commentId: M:FreeRedis.IRedisClient.FtDocumentRepository``1
+  name.vb: FtDocumentRepository(Of T)()
+  fullName: FreeRedis.IRedisClient.FtDocumentRepository<T>()
+  fullName.vb: FreeRedis.IRedisClient.FtDocumentRepository(Of T)()
+  nameWithType: IRedisClient.FtDocumentRepository<T>()
+  nameWithType.vb: IRedisClient.FtDocumentRepository(Of T)()
+- uid: FreeRedis.IRedisClient.FtDropIndex(System.String,System.Boolean)
+  name: FtDropIndex(String, Boolean)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDropIndex_System_String_System_Boolean_
+  commentId: M:FreeRedis.IRedisClient.FtDropIndex(System.String,System.Boolean)
+  fullName: FreeRedis.IRedisClient.FtDropIndex(System.String, System.Boolean)
+  nameWithType: IRedisClient.FtDropIndex(String, Boolean)
+- uid: FreeRedis.IRedisClient.FtDropIndex*
+  name: FtDropIndex
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtDropIndex_
+  commentId: Overload:FreeRedis.IRedisClient.FtDropIndex
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtDropIndex
+  nameWithType: IRedisClient.FtDropIndex
+- uid: FreeRedis.IRedisClient.FtExplain(System.String,System.String,System.String)
+  name: FtExplain(String, String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtExplain_System_String_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtExplain(System.String,System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtExplain(System.String, System.String, System.String)
+  nameWithType: IRedisClient.FtExplain(String, String, String)
+- uid: FreeRedis.IRedisClient.FtExplain*
+  name: FtExplain
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtExplain_
+  commentId: Overload:FreeRedis.IRedisClient.FtExplain
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtExplain
+  nameWithType: IRedisClient.FtExplain
+- uid: FreeRedis.IRedisClient.FtSearch(System.String,System.String)
+  name: FtSearch(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSearch_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtSearch(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtSearch(System.String, System.String)
+  nameWithType: IRedisClient.FtSearch(String, String)
+- uid: FreeRedis.IRedisClient.FtSearch*
+  name: FtSearch
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSearch_
+  commentId: Overload:FreeRedis.IRedisClient.FtSearch
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSearch
+  nameWithType: IRedisClient.FtSearch
+- uid: FreeRedis.IRedisClient.FtSpellCheck(System.String,System.String,System.Int32,System.Nullable{System.Int32})
+  name: FtSpellCheck(String, String, Int32, Nullable<Int32>)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSpellCheck_System_String_System_String_System_Int32_System_Nullable_System_Int32__
+  commentId: M:FreeRedis.IRedisClient.FtSpellCheck(System.String,System.String,System.Int32,System.Nullable{System.Int32})
+  name.vb: FtSpellCheck(String, String, Int32, Nullable(Of Int32))
+  fullName: FreeRedis.IRedisClient.FtSpellCheck(System.String, System.String, System.Int32, System.Nullable<System.Int32>)
+  fullName.vb: FreeRedis.IRedisClient.FtSpellCheck(System.String, System.String, System.Int32, System.Nullable(Of System.Int32))
+  nameWithType: IRedisClient.FtSpellCheck(String, String, Int32, Nullable<Int32>)
+  nameWithType.vb: IRedisClient.FtSpellCheck(String, String, Int32, Nullable(Of Int32))
+- uid: FreeRedis.IRedisClient.FtSpellCheck*
+  name: FtSpellCheck
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSpellCheck_
+  commentId: Overload:FreeRedis.IRedisClient.FtSpellCheck
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSpellCheck
+  nameWithType: IRedisClient.FtSpellCheck
+- uid: FreeRedis.IRedisClient.FtSugAdd(System.String,System.String,System.Double,System.Boolean,System.String)
+  name: FtSugAdd(String, String, Double, Boolean, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugAdd_System_String_System_String_System_Double_System_Boolean_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtSugAdd(System.String,System.String,System.Double,System.Boolean,System.String)
+  fullName: FreeRedis.IRedisClient.FtSugAdd(System.String, System.String, System.Double, System.Boolean, System.String)
+  nameWithType: IRedisClient.FtSugAdd(String, String, Double, Boolean, String)
+- uid: FreeRedis.IRedisClient.FtSugAdd*
+  name: FtSugAdd
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugAdd_
+  commentId: Overload:FreeRedis.IRedisClient.FtSugAdd
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSugAdd
+  nameWithType: IRedisClient.FtSugAdd
+- uid: FreeRedis.IRedisClient.FtSugDel(System.String,System.String)
+  name: FtSugDel(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugDel_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtSugDel(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtSugDel(System.String, System.String)
+  nameWithType: IRedisClient.FtSugDel(String, String)
+- uid: FreeRedis.IRedisClient.FtSugDel*
+  name: FtSugDel
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugDel_
+  commentId: Overload:FreeRedis.IRedisClient.FtSugDel
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSugDel
+  nameWithType: IRedisClient.FtSugDel
+- uid: FreeRedis.IRedisClient.FtSugGet(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Int32})
+  name: FtSugGet(String, String, Boolean, Boolean, Boolean, Nullable<Int32>)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugGet_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_System_Nullable_System_Int32__
+  commentId: M:FreeRedis.IRedisClient.FtSugGet(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Int32})
+  name.vb: FtSugGet(String, String, Boolean, Boolean, Boolean, Nullable(Of Int32))
+  fullName: FreeRedis.IRedisClient.FtSugGet(System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.Nullable<System.Int32>)
+  fullName.vb: FreeRedis.IRedisClient.FtSugGet(System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.Nullable(Of System.Int32))
+  nameWithType: IRedisClient.FtSugGet(String, String, Boolean, Boolean, Boolean, Nullable<Int32>)
+  nameWithType.vb: IRedisClient.FtSugGet(String, String, Boolean, Boolean, Boolean, Nullable(Of Int32))
+- uid: FreeRedis.IRedisClient.FtSugGet*
+  name: FtSugGet
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugGet_
+  commentId: Overload:FreeRedis.IRedisClient.FtSugGet
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSugGet
+  nameWithType: IRedisClient.FtSugGet
+- uid: FreeRedis.IRedisClient.FtSugLen(System.String)
+  name: FtSugLen(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugLen_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtSugLen(System.String)
+  fullName: FreeRedis.IRedisClient.FtSugLen(System.String)
+  nameWithType: IRedisClient.FtSugLen(String)
+- uid: FreeRedis.IRedisClient.FtSugLen*
+  name: FtSugLen
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSugLen_
+  commentId: Overload:FreeRedis.IRedisClient.FtSugLen
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSugLen
+  nameWithType: IRedisClient.FtSugLen
+- uid: FreeRedis.IRedisClient.FtSynDump(System.String)
+  name: FtSynDump(String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSynDump_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtSynDump(System.String)
+  fullName: FreeRedis.IRedisClient.FtSynDump(System.String)
+  nameWithType: IRedisClient.FtSynDump(String)
+- uid: FreeRedis.IRedisClient.FtSynDump*
+  name: FtSynDump
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSynDump_
+  commentId: Overload:FreeRedis.IRedisClient.FtSynDump
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSynDump
+  nameWithType: IRedisClient.FtSynDump
+- uid: FreeRedis.IRedisClient.FtSynUpdate(System.String,System.String,System.Boolean,System.String[])
+  name: FtSynUpdate(String, String, Boolean, String[])
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSynUpdate_System_String_System_String_System_Boolean_System_String___
+  commentId: M:FreeRedis.IRedisClient.FtSynUpdate(System.String,System.String,System.Boolean,System.String[])
+  name.vb: FtSynUpdate(String, String, Boolean, String())
+  fullName: FreeRedis.IRedisClient.FtSynUpdate(System.String, System.String, System.Boolean, System.String[])
+  fullName.vb: FreeRedis.IRedisClient.FtSynUpdate(System.String, System.String, System.Boolean, System.String())
+  nameWithType: IRedisClient.FtSynUpdate(String, String, Boolean, String[])
+  nameWithType.vb: IRedisClient.FtSynUpdate(String, String, Boolean, String())
+- uid: FreeRedis.IRedisClient.FtSynUpdate*
+  name: FtSynUpdate
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtSynUpdate_
+  commentId: Overload:FreeRedis.IRedisClient.FtSynUpdate
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtSynUpdate
+  nameWithType: IRedisClient.FtSynUpdate
+- uid: FreeRedis.IRedisClient.FtTagVals(System.String,System.String)
+  name: FtTagVals(String, String)
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtTagVals_System_String_System_String_
+  commentId: M:FreeRedis.IRedisClient.FtTagVals(System.String,System.String)
+  fullName: FreeRedis.IRedisClient.FtTagVals(System.String, System.String)
+  nameWithType: IRedisClient.FtTagVals(String, String)
+- uid: FreeRedis.IRedisClient.FtTagVals*
+  name: FtTagVals
+  href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_FtTagVals_
+  commentId: Overload:FreeRedis.IRedisClient.FtTagVals
+  isSpec: "True"
+  fullName: FreeRedis.IRedisClient.FtTagVals
+  nameWithType: IRedisClient.FtTagVals
 - uid: FreeRedis.IRedisClient.GeoAdd(System.String,FreeRedis.GeoMember[])
   name: GeoAdd(String, GeoMember[])
   href: docs/api/FreeRedis.IRedisClient.html#FreeRedis_IRedisClient_GeoAdd_System_String_FreeRedis_GeoMember___
@@ -18078,6 +18434,32 @@ references:
   fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).DropIndex
   nameWithType: FtDocumentRepository<T>.DropIndex
   nameWithType.vb: FtDocumentRepository(Of T).DropIndex
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object)
+  name: Get(Object)
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_Get_System_Object_
+  commentId: M:FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object)
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.Get(System.Object)
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).Get(System.Object)
+  nameWithType: FtDocumentRepository<T>.Get(Object)
+  nameWithType.vb: FtDocumentRepository(Of T).Get(Object)
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object[])
+  name: Get(Object[])
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_Get_System_Object___
+  commentId: M:FreeRedis.RediSearch.FtDocumentRepository`1.Get(System.Object[])
+  name.vb: Get(Object())
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.Get(System.Object[])
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).Get(System.Object())
+  nameWithType: FtDocumentRepository<T>.Get(Object[])
+  nameWithType.vb: FtDocumentRepository(Of T).Get(Object())
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.Get*
+  name: Get
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_Get_
+  commentId: Overload:FreeRedis.RediSearch.FtDocumentRepository`1.Get
+  isSpec: "True"
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.Get
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).Get
+  nameWithType: FtDocumentRepository<T>.Get
+  nameWithType.vb: FtDocumentRepository(Of T).Get
 - uid: FreeRedis.RediSearch.FtDocumentRepository`1.GetMapFieldType(PropertyInfo,FreeRedis.RediSearch.FtFieldAttribute)
   name: GetMapFieldType(PropertyInfo, FtFieldAttribute)
   href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_GetMapFieldType_PropertyInfo_FreeRedis_RediSearch_FtFieldAttribute_
@@ -18226,6 +18608,41 @@ references:
   fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).Save
   nameWithType: FtDocumentRepository<T>.Save
   nameWithType.vb: FtDocumentRepository(Of T).Save
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0)
+  name: SaveAll(T)
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll__0_
+  commentId: M:FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0)
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.SaveAll(T)
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).SaveAll(T)
+  nameWithType: FtDocumentRepository<T>.SaveAll(T)
+  nameWithType.vb: FtDocumentRepository(Of T).SaveAll(T)
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0[])
+  name: SaveAll(T[])
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll__0___
+  commentId: M:FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(`0[])
+  name.vb: SaveAll(T())
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.SaveAll(T[])
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).SaveAll(T())
+  nameWithType: FtDocumentRepository<T>.SaveAll(T[])
+  nameWithType.vb: FtDocumentRepository(Of T).SaveAll(T())
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(System.Collections.Generic.IEnumerable{`0})
+  name: SaveAll(IEnumerable<T>)
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_System_Collections_Generic_IEnumerable__0__
+  commentId: M:FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll(System.Collections.Generic.IEnumerable{`0})
+  name.vb: SaveAll(IEnumerable(Of T))
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.SaveAll(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).SaveAll(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: FtDocumentRepository<T>.SaveAll(IEnumerable<T>)
+  nameWithType.vb: FtDocumentRepository(Of T).SaveAll(IEnumerable(Of T))
+- uid: FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll*
+  name: SaveAll
+  href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_SaveAll_
+  commentId: Overload:FreeRedis.RediSearch.FtDocumentRepository`1.SaveAll
+  isSpec: "True"
+  fullName: FreeRedis.RediSearch.FtDocumentRepository<T>.SaveAll
+  fullName.vb: FreeRedis.RediSearch.FtDocumentRepository(Of T).SaveAll
+  nameWithType: FtDocumentRepository<T>.SaveAll
+  nameWithType.vb: FtDocumentRepository(Of T).SaveAll
 - uid: FreeRedis.RediSearch.FtDocumentRepository`1.Search(Expression{System.Func{`0,System.Boolean}})
   name: Search(Expression<Func<T, Boolean>>)
   href: docs/api/FreeRedis.RediSearch.FtDocumentRepository-1.html#FreeRedis_RediSearch_FtDocumentRepository_1_Search_Expression_System_Func__0_System_Boolean___

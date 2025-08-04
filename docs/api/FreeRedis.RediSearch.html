@@ -90,7 +90,9 @@
       <h4><a class="xref" href="FreeRedis.RediSearch.Document.html">Document</a></h4>
       <section></section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtDocumentAttribute.html">FtDocumentAttribute</a></h4>
-      <section></section>
+      <section><p>标记类为 RediSearch 文档类型，定义索引的基本配置信息。
+每个用于 FtDocumentRepository 的实体类都必须标记此特性。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtDocumentRepository-1.html">FtDocumentRepository&lt;T&gt;</a></h4>
       <section></section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtDocumentRepository-1.DocumentSchemaFieldInfo.html">FtDocumentRepository&lt;T&gt;.DocumentSchemaFieldInfo</a></h4>
@@ -106,19 +108,35 @@
       <h4><a class="xref" href="FreeRedis.RediSearch.FtDocumentRepositorySearchBuilder-1.html">FtDocumentRepositorySearchBuilder&lt;T&gt;</a></h4>
       <section></section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtFieldAttribute.html">FtFieldAttribute</a></h4>
-      <section></section>
+      <section><p>RediSearch 字段特性的基类，定义了所有字段类型的通用属性。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtGeoFieldAttribute.html">FtGeoFieldAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性为地理位置字段，支持基于地理位置的搜索和距离计算。
+适用于存储经纬度坐标的属性，支持按距离搜索、范围查询等地理空间操作。
+字段值应为 &quot;经度,纬度&quot; 格式的字符串，如 &quot;116.397128,39.916527&quot;。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.html">FtGeoShapeFieldAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性为地理形状字段，支持复杂的地理形状搜索，如多边形、线段等。
+适用于存储复杂地理形状数据的属性，支持形状相交、包含等高级地理空间查询。
+字段值应为 WKT（Well-Known Text）格式的字符串，如 &quot;POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))&quot;。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtKeyAttribute.html">FtKeyAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性作为文档的主键。每个文档类必须有且仅有一个属性标记此特性。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtNumericFieldAttribute.html">FtNumericFieldAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性为数值字段，支持范围查询、数值比较和数学运算。
+适用于整数、浮点数、decimal 等数值类型属性，如价格、年龄、分数、时间戳等。
+支持范围搜索（如 @price:[100 500]）和排序操作。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtTagFieldAttribute.html">FtTagFieldAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性为标签字段，用于精确匹配和分类搜索。
+适用于类别、标签、状态等需要精确匹配的字符串或字符串数组属性。
+标签字段不进行分词处理，支持多值（数组）存储。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.FtTextFieldAttribute.html">FtTextFieldAttribute</a></h4>
-      <section></section>
+      <section><p>标记属性为文本字段，支持全文搜索、词干提取、语音匹配等高级文本搜索功能。
+适用于需要进行全文搜索的字符串属性，如标题、描述、内容等。</p>
+</section>
       <h4><a class="xref" href="FreeRedis.RediSearch.GeoFieldOptions.html">GeoFieldOptions</a></h4>
       <section></section>
       <h4><a class="xref" href="FreeRedis.RediSearch.GeoShapeFieldOptions.html">GeoShapeFieldOptions</a></h4>

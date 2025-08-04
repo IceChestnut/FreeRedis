@@ -73,7 +73,10 @@
   
   <h1 id="FreeRedis_RediSearch_FtNumericFieldAttribute" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute" class="text-break">Class FtNumericFieldAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>标记属性为数值字段，支持范围查询、数值比较和数学运算。
+适用于整数、浮点数、decimal 等数值类型属性，如价格、年龄、分数、时间戳等。
+支持范围搜索（如 @price:[100 500]）和排序操作。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -249,7 +252,8 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtNumericFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtNumericFieldAttribute__ctor" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.#ctor">FtNumericFieldAttribute()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>初始化 FtNumericFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -259,7 +263,8 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtNumericFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtNumericFieldAttribute__ctor_System_String_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.#ctor(System.String)">FtNumericFieldAttribute(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的字段名初始化 FtNumericFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -278,7 +283,8 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>字段在 Redis 中的名称</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -288,7 +294,9 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtNumericFieldAttribute_MissingIndex_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.MissingIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtNumericFieldAttribute_MissingIndex" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.MissingIndex">MissingIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否索引缺失值。如果设置为 true，没有该字段的文档也会被索引。
+这允许搜索不包含特定数值字段的文档，或者查找字段值为 null 的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -313,7 +321,10 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtNumericFieldAttribute_NoIndex_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.NoIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtNumericFieldAttribute_NoIndex" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.NoIndex">NoIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否不创建搜索索引。如果设置为 true，字段数据会被存储但不能被搜索。
+适用于需要存储但不需要搜索的数值字段，如内部计算字段、统计数据等。
+即使设置了 NoIndex，仍然可以用于排序（如果同时设置了 Sortable）。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -338,7 +349,10 @@ public class FtNumericFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtNumericFieldAttribute_Sortable_" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.Sortable*"></a>
   <h4 id="FreeRedis_RediSearch_FtNumericFieldAttribute_Sortable" data-uid="FreeRedis.RediSearch.FtNumericFieldAttribute.Sortable">Sortable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置字段是否可排序。如果设置为 true，可以在搜索结果中按此字段排序。
+数值字段通常设置为可排序，以支持按价格、时间、评分等排序。
+注意：可排序字段会占用额外的内存空间。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

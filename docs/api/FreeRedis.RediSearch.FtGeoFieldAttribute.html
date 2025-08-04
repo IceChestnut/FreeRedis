@@ -73,7 +73,10 @@
   
   <h1 id="FreeRedis_RediSearch_FtGeoFieldAttribute" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute" class="text-break">Class FtGeoFieldAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>标记属性为地理位置字段，支持基于地理位置的搜索和距离计算。
+适用于存储经纬度坐标的属性，支持按距离搜索、范围查询等地理空间操作。
+字段值应为 &quot;经度,纬度&quot; 格式的字符串，如 &quot;116.397128,39.916527&quot;。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -249,7 +252,8 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtGeoFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoFieldAttribute__ctor" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.#ctor">FtGeoFieldAttribute()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>初始化 FtGeoFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -259,7 +263,8 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtGeoFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoFieldAttribute__ctor_System_String_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.#ctor(System.String)">FtGeoFieldAttribute(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的字段名初始化 FtGeoFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -278,7 +283,8 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>字段在 Redis 中的名称</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -288,7 +294,9 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtGeoFieldAttribute_MissingIndex_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.MissingIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoFieldAttribute_MissingIndex" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.MissingIndex">MissingIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否索引缺失值。如果设置为 true，没有该字段的文档也会被索引。
+这允许搜索不包含地理位置信息的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -313,7 +321,10 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtGeoFieldAttribute_NoIndex_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.NoIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoFieldAttribute_NoIndex" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.NoIndex">NoIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否不创建搜索索引。如果设置为 true，字段数据会被存储但不能进行地理搜索。
+适用于需要存储位置信息但不需要进行地理搜索的场景。
+即使设置了 NoIndex，仍然可以用于排序（如果同时设置了 Sortable）。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -338,7 +349,10 @@ public class FtGeoFieldAttribute : FtFieldAttribute, _Attribute</code></pre>
   
   <a id="FreeRedis_RediSearch_FtGeoFieldAttribute_Sortable_" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.Sortable*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoFieldAttribute_Sortable" data-uid="FreeRedis.RediSearch.FtGeoFieldAttribute.Sortable">Sortable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置字段是否可排序。如果设置为 true，可以在搜索结果中按此字段排序。
+对于地理位置字段，排序通常按照距离某个参考点的远近进行。
+注意：可排序字段会占用额外的内存空间。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

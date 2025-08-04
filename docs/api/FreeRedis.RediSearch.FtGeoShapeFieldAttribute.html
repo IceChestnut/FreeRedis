@@ -73,7 +73,10 @@
   
   <h1 id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute" class="text-break">Class FtGeoShapeFieldAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>标记属性为地理形状字段，支持复杂的地理形状搜索，如多边形、线段等。
+适用于存储复杂地理形状数据的属性，支持形状相交、包含等高级地理空间查询。
+字段值应为 WKT（Well-Known Text）格式的字符串，如 &quot;POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))&quot;。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -249,7 +252,8 @@ public class FtGeoShapeFieldAttribute : FtFieldAttribute, _Attribute</code></pre
   
   <a id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute__ctor" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.#ctor">FtGeoShapeFieldAttribute()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>初始化 FtGeoShapeFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -259,7 +263,8 @@ public class FtGeoShapeFieldAttribute : FtFieldAttribute, _Attribute</code></pre
   
   <a id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute__ctor_" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.#ctor*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute__ctor_System_String_" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.#ctor(System.String)">FtGeoShapeFieldAttribute(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的字段名初始化 FtGeoShapeFieldAttribute 类的新实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -278,7 +283,8 @@ public class FtGeoShapeFieldAttribute : FtFieldAttribute, _Attribute</code></pre
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>字段在 Redis 中的名称</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -288,7 +294,9 @@ public class FtGeoShapeFieldAttribute : FtFieldAttribute, _Attribute</code></pre
   
   <a id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute_MissingIndex_" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.MissingIndex*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute_MissingIndex" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.MissingIndex">MissingIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置是否索引缺失值。如果设置为 true，没有该字段的文档也会被索引。
+这允许搜索不包含地理形状信息的文档。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -313,7 +321,10 @@ public class FtGeoShapeFieldAttribute : FtFieldAttribute, _Attribute</code></pre
   
   <a id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute_System_" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.System*"></a>
   <h4 id="FreeRedis_RediSearch_FtGeoShapeFieldAttribute_System" data-uid="FreeRedis.RediSearch.FtGeoShapeFieldAttribute.System">System</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取或设置坐标系统。指定地理形状使用的坐标参考系统。
+常用值包括 SPHERICAL（球面坐标系）和 FLAT（平面坐标系）。
+默认为 SPHERICAL，适用于地球表面的地理坐标。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
